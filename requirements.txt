@@ -1,0 +1,7 @@
+# Keep source runs and release builds on the decoder stack verified by the
+# difficult-QR regression sample. Decoder behavior can change across releases.
+numpy==2.5.2
+opencv-python-headless==5.0.0.93
+Pillow==12.3.0
+qrcode[pil]==8.2
+zxing-cpp==3.1.1
